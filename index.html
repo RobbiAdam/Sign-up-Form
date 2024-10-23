@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Sign Up Form</title>
+</head>
+
+<body>
+    <section class="left-side">
+        <div class="image-bg">
+            <img src="Images/stock_image_by_RIA3322.jpg" alt="Background image">
+        </div>
+        <div class="odin-logo">
+            <img src="Images/odin-lined.png" alt="odin-logo">
+            <p id="logo-text">Odin</p>
+        </div>
+        <div class="footer">
+            <p id="footer-text">Background image credited from RIA3322 Shutterstock</p>
+        </div>
+    </section>
+
+    <section class="right-side">
+        <div class="header-text">
+            <h1 class="title">This is not a real online service! You know you need something like this in your life to
+                help you realize your deepest dreams. Sign up now to get started.</h1>
+            <h1 class="title">You know you want to.</h1>
+        </div>
+
+        <fieldset>
+            <div class="form">
+                <div class="container">
+                    <h2 class="form-title">Let's do this!</h2>
+                    <form action="" method="post">
+                        <div class="rows">
+                            <div class="form-control">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" required>
+                            </div>
+                            <div class="form-control">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" required>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <div class="form-control">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-control">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" required>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <div class="form-control">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" required pattern=".{8,}"
+                                    title="Password must be at least 8 characters">
+                            </div>
+                            <div class="form-control">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" id="confirm-password" required pattern=".{8,}"
+                                    title="Password must be at least 8 characters">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </fieldset>
+        <section class="button">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </section>
+    </section>
+</body>
+
+</html>
